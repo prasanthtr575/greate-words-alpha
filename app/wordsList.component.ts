@@ -38,4 +38,9 @@ export class WordsListComponent implements OnInit {
         let link = ['AddWord'];
         this._router.navigate(link);
     }
+
+    goWordMeaning() {
+        let link = ['WordMeaning'];
+        this._router.navigate(link);
+    }
 }

@@ -1,7 +1,9 @@
 <h1 class="add"><a (click)="addWord()"> + </a></h1>
 <h1>{{title}}</h1>
 <ul>
-    <li *ngFor="#word of words">
+    <li *ngFor="#word of words" 
+        (click)="goWordMeaning()"
+        class="rowOfWords">
         <h3>{{word.quote}}</h3>
         <h4 class="genius">-- {{word.genius}}</h4>
         <hr>

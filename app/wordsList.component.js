@@ -44,6 +44,10 @@ System.register(['angular2/core', 'angular2/router', './word.service'], function
                     var link = ['AddWord'];
                     this._router.navigate(link);
                 };
+                WordsListComponent.prototype.goWordMeaning = function () {
+                    var link = ['WordMeaning'];
+                    this._router.navigate(link);
+                };
                 WordsListComponent = __decorate([
                     core_1.Component({
                         selector: 'words-list',
