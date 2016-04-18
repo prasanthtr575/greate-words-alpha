@@ -2,9 +2,9 @@
 <h1>{{title}}</h1>
 <ul>
     <li *ngFor="#word of words" 
-        (click)="goWordMeaning()"
+        (click)="goWordMeaning(word)"
         class="rowOfWords">
-        <h3>{{word.quote}}</h3>
+        <p class="word"><i>{{word.quote}}</i></p>
         <h4 class="genius">-- {{word.genius}}</h4>
         <hr>
     </li>

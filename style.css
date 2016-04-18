@@ -16,8 +16,11 @@ body, input[text], button {
   color: #888; 
   font-family: Cambria, Georgia; 
 }
+.word {
+  font-size: 24px;
+}
 .genius {
-    color: dimgrey;
+    color: #4CAF50;
 }
 .add {
   color: green;
@@ -42,6 +45,12 @@ body, input[text], button {
 }
 .back {
   cursor: pointer;
+  color: #F44D27;
+  font-size: 18px;
+  text-align: right;
+}
+.back:hover {
+  color: blue;
 }
 .rowOfWords:hover {
   background: #F2F2F2

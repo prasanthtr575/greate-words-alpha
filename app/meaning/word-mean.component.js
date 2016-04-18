@@ -29,8 +29,8 @@ System.register(['angular2/core', '../word', 'angular2/router'], function(export
                     this._routeParams = _routeParams;
                 }
                 WordMeanComponent.prototype.ngOnInit = function () {
-                    //this.word = this._routeParams.get('word');
-                    debugger;
+                    var quote = JSON.parse(decodeURIComponent(this._routeParams.get('word')));
+                    this.word = quote;
                 };
                 WordMeanComponent.prototype.goBack = function () {
                     window.history.back();

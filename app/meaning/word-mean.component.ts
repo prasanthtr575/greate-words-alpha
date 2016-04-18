@@ -15,8 +15,12 @@ export class WordMeanComponent implements OnInit{
   	}
     
   	ngOnInit() {
-    	//this.word = this._routeParams.get('word');
-    	debugger;
+    	let quote = JSON.parse(
+                    decodeURIComponent(
+                      this._routeParams.get('word')
+                    )
+                  );
+      this.word = quote;
   	}
     
   	goBack() {

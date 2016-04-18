@@ -27,7 +27,6 @@ export class WordsListComponent implements OnInit {
         this._wordService.getWords()
             .then(words => this.words = words);
         */
-        debugger;
         this._wordService.getWords()
                      .subscribe(
                        words => this.words = words,
@@ -39,8 +38,16 @@ export class WordsListComponent implements OnInit {
         this._router.navigate(link);
     }
 
-    goWordMeaning() {
-        let link = ['WordMeaning'];
+    goWordMeaning(quote: Word) {
+        let quoteStr = JSON.stringify(quote);
+        let link = ['WordMeaning',{ word: quoteStr}];
         this._router.navigate(link);
     }
+
+    /*
+    gotoDetail(hero: Hero) {
+    let link = ['HeroDetail', { id: hero.id }];
+    this._router.navigate(link);
+  }
+    */
 }
