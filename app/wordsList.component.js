@@ -36,7 +36,8 @@ System.register(['angular2/core', 'angular2/router', './word.service'], function
                     this._wordService.getWords()
                         .then(words => this.words = words);
                     */
-                    this._wordService.getWords()
+                    this._wordService
+                        .getWords()
                         .subscribe(function (words) { return _this.words = words; }, function (error) { return _this.errorMessage = error; });
                 };
                 WordsListComponent.prototype.addWord = function () {

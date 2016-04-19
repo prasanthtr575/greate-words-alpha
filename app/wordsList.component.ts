@@ -27,10 +27,12 @@ export class WordsListComponent implements OnInit {
         this._wordService.getWords()
             .then(words => this.words = words);
         */
-        this._wordService.getWords()
-                     .subscribe(
-                       words => this.words = words,
-                       error => this.errorMessage = <any>error);
+        this._wordService
+            .getWords()
+            .subscribe(
+               words => this.words = words,
+               error => this.errorMessage = <any>error
+            );
     }
 
     addWord() {
@@ -43,11 +45,4 @@ export class WordsListComponent implements OnInit {
         let link = ['WordMeaning',{ word: quoteStr}];
         this._router.navigate(link);
     }
-
-    /*
-    gotoDetail(hero: Hero) {
-    let link = ['HeroDetail', { id: hero.id }];
-    this._router.navigate(link);
-  }
-    */
 }

@@ -27,19 +27,15 @@ body, input[text], button {
   text-align: right;
   cursor: pointer;
 }
-.add:hover {
-  color: #ffffff;
-}
-.add a {
+
+.add span {
   padding: 3px 14px 3px 14px;
   border-radius: 8px;
   border: 1px solid green;
   text-decoration: none;
 }
-.add a:-webkit-any-link {
-  color: green;
-}
-.add a:hover {
+
+.add span:hover {
   background: green;
   color: #ffffff;
 }
@@ -55,7 +51,4 @@ body, input[text], button {
 .rowOfWords:hover {
   background: #F2F2F2
 }
-/* 
- * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
- * for the full set of master styles used by the documentation samples
- */
+
