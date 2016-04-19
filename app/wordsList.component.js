@@ -36,7 +36,6 @@ System.register(['angular2/core', 'angular2/router', './word.service'], function
                     this._wordService.getWords()
                         .then(words => this.words = words);
                     */
-                    debugger;
                     this._wordService.getWords()
                         .subscribe(function (words) { return _this.words = words; }, function (error) { return _this.errorMessage = error; });
                 };
@@ -44,8 +43,9 @@ System.register(['angular2/core', 'angular2/router', './word.service'], function
                     var link = ['AddWord'];
                     this._router.navigate(link);
                 };
-                WordsListComponent.prototype.goWordMeaning = function () {
-                    var link = ['WordMeaning'];
+                WordsListComponent.prototype.goWordMeaning = function (quote) {
+                    var quoteStr = JSON.stringify(quote);
+                    var link = ['WordMeaning', { word: quoteStr }];
                     this._router.navigate(link);
                 };
                 WordsListComponent = __decorate([
