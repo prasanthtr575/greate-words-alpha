@@ -25,14 +25,13 @@ body, input[text], button {
 .add {
   color: green;
   text-align: right;
-  cursor: pointer;
 }
 
 .add span {
   padding: 3px 14px 3px 14px;
   border-radius: 8px;
   border: 1px solid green;
-  text-decoration: none;
+  cursor: pointer;
 }
 
 .add span:hover {
@@ -49,6 +48,9 @@ body, input[text], button {
   color: blue;
 }
 .rowOfWords:hover {
-  background: #F2F2F2
+  background: #F2F2F2;
+}
+li {
+  cursor: pointer;
 }
 
