@@ -53,4 +53,7 @@ body, input[text], button {
 li {
   cursor: pointer;
 }
+.meanNavPane {
+  text-align: right;
+}
 

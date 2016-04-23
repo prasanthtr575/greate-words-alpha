@@ -1,43 +1,75 @@
 {
   "data": [
     {
-      "quote": "If we did all the things we are capable of doing, we would literally astonish ourselves.",
+      "quote": "If you don't run your own life, somebody else will.",
+      "genius": "John Atkinson"
+    },
+    {
+      "quote": "Money can buy you a fine dog, but only love can make him wag his tail.",
+      "genius": "Kinky Friedman"
+    },
+    {
+      "quote": "Enthusiasm moves the world.",
+      "genius": "Arthur Balfour"
+    },
+    {
+      "quote": "If you can dream it, you can do it.",
+      "genius": "Walt Disney"
+    },
+    {
+      "quote": "By failing to prepare, you are preparing to fail.",
+      "genius": "Benjamin Franklin"
+    },
+    {
+      "quote": "Laziness may appear attractive, but work gives satisfaction.",
+      "genius": "Anne Frank"
+    },
+    {
+      "quote": "As knowledge increases, wonder deepens.",
+      "genius": "Charles Morgan"
+    },
+    {
+      "quote": "Never argue with stupid people, they will drag you down to their level and then beat you with experience.",
+      "genius": "Mark Twain"
+    },
+    {
+      "quote": "I have not failed. I've just found 10,000 ways that won't work.",
       "genius": "Thomas Edison"
     },
     {
-      "quote": "The source and center of all man's creative power is his power of making images, or the power of imagination.",
-      "genius": "Robert Collier"
-    },
-    {
-      "quote": "If your real desire is to do good, there is no need to wait for money before you do it; you can do it now, at this very moment, and just where you are.",
-      "genius": "James Allen"
-    },
-    {
-      "quote": "My success just evolved from working hard at hand each day.",
-      "genius": "Johnny Carson"
-    },
-    {
-      "quote": "The best portion of a good man's life, his little nameless, unremembered acts of kindness and love.",
-      "genius": "William Wordsworth"
-    },
-    {
-      "quote": "It is our duty as men and women to proceed as though the limits to our abilities do not exit.",
-      "genius": "Pierre Teilhard de Chardin"
-    },
-    {
-      "quote": "Honesty is the first chapter in the book of wisdom.",
-      "genius": "Thomas Jefferson"
+      "quote": "The best way to predict the future is to invent it.",
+      "genius": "Alan Kay"
     },
     {
       "quote": "I cannot teach anybody anything. I can only make them think.",
       "genius": "Socrates"
     },
     {
-      "quote": "The best way to predict the future is to invent it.",
-      "genius": "Alan Kay"
-    }, 
+      "quote": "Honesty is the first chapter in the book of wisdom.",
+      "genius": "Thomas Jefferson"
+    },
     {
-      "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+      "quote": "It is our duty as men and women to proceed as though the limits to our abilities do not exit.",
+      "genius": "Pierre Teilhard de Chardin"
+    },
+    {
+      "quote": "The best portion of a good man's life, his little nameless, unremembered acts of kindness and love.",
+      "genius": "William Wordsworth"
+    },
+    {
+      "quote": "My success just evolved from working hard at hand each day.",
+      "genius": "Johnny Carson"
+    },
+    {
+      "quote": "If your real desire is to do good, there is no need to wait for money before you do it; you can do it now, at this very moment, and just where you are.",
+      "genius": "James Allen"
+    },
+    {
+      "quote": "The source and center of all man's creative power is his power of making images, or the power of imagination.",
+      "genius": "Robert Collier"
+    },
+    {
+      "quote": "If we did all the things we are capable of doing, we would literally astonish ourselves.",
       "genius": "Thomas Edison"
     }
   ]
